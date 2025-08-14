@@ -7,10 +7,14 @@
     <title>Mausam</title>
 </head>
 <body>
+    <canvas id="bgCanvas"></canvas>
     <div class="container">
-        <h1>Mausam</h1>
-        <input type="text" id="locationInput" placeholder="Enter location...">
-        <button id="getWeatherBtn">Get Weather</button>
+        <h1>🌤️ Mausam</h1>
+        <p class="subtitle">Check live weather & air quality instantly</p>
+        <div class="input-group">
+            <input type="text" id="locationInput" placeholder="Enter location...">
+            <button id="getWeatherBtn">Get Weather</button>
+        </div>
         <div id="weatherResult" class="weather-result"></div>
     </div>
     <script src="script.js"></script>
